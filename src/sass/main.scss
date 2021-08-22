@@ -1,0 +1,26 @@
+.timer {
+  line-height: 1;
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-right: 21px;
+  }
+}
+
+.value {
+  margin-bottom: 5px;
+  font-size: 35px;
+}
+
+.label {
+  font-size: 13px;
+  text-transform: uppercase;
+}
